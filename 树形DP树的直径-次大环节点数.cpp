@@ -8,7 +8,7 @@ vector<int> p[N];
 pair<int,int> bfs(int u)
 {
   vector<int> dist(N,-1);//起始点距离dist[i]中i的距离
-  //初始化dist数组时应该是用小括号，空间＋赋值
+  //初始化dist数组时应该是用小括号.
   queue<int> q;
   dist[u]=0;
   q.push(u);
